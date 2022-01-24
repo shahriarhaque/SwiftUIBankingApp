@@ -1,0 +1,61 @@
+{
+  "id": 1,
+  "username": "fhabberjam0@blinklist.com",
+  "profile": {
+    "firstName": "Lorain",
+    "lastName": "Habberjam",
+    "preferredName": "Frannie",
+    "postalAddress": "2/3345 Commercial Place, Taree, NSW",
+    "emailAddress": "fhabberjam0@cyberchimps.com"
+  },
+  "accounts": [
+    {
+      "id": 1,
+      "accountType": "Everyday",
+      "accountName": "Everyday Account",
+      "availableToSpend": 775.38,
+      "accountNumber": "904874817",
+      "accountBsb": "130605"
+    },
+    {
+      "id": 2,
+      "accountType": "Savings",
+      "accountName": "Savings Account",
+      "availableToSpend": 785.86,
+      "accountNumber": "553152332",
+      "accountBsb": "295657"
+    },
+    {
+      "id": 3,
+      "accountType": "CreditCard",
+      "accountName": "Credit Card",
+      "availableToSpend": 742.9,
+      "accountNumber": "385242282",
+      "accountBsb": "147950"
+    },
+    {
+      "id": 4,
+      "accountType": "Goal",
+      "accountName": "Holiday Savings",
+      "availableToSpend": 509.4,
+      "accountNumber": "005558095",
+      "accountBsb": "005288"
+    },
+    {
+      "id": 5,
+      "accountType": "HomeLoan",
+      "accountName": "Home loan",
+      "availableToSpend": 584.47,
+      "accountNumber": "056368075",
+      "accountBsb": "959682"
+    },
+    {
+      "id": 6,
+      "accountType": "PersonalLoan",
+      "accountName": "Car loan",
+      "availableToSpend": 788.15,
+      "accountNumber": "964868580",
+      "accountBsb": "686330"
+    }
+  ]
+}
