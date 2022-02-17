@@ -7,13 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8D1C7FC279E6D5100385EF6 /* SwiftUIBankingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1C7FB279E6D5100385EF6 /* SwiftUIBankingAppApp.swift */; };
+		F84D41B027BE280400A31E8B /* AccountListItemDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41AF27BE280400A31E8B /* AccountListItemDemo.swift */; };
+		F84D41B327BE2DF100A31E8B /* AccountSummaryListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41B227BE2DF100A31E8B /* AccountSummaryListItem.swift */; };
+		F84D41B627BE391300A31E8B /* AccountSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41B527BE391300A31E8B /* AccountSummary.swift */; };
+		F84D41B827BE396100A31E8B /* AccountType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41B727BE396100A31E8B /* AccountType.swift */; };
+		F84D41BB27BE3A0B00A31E8B /* AccountSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41BA27BE3A0B00A31E8B /* AccountSummaryViewModel.swift */; };
+		F84D41BE27BE3C9B00A31E8B /* NumberExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41BD27BE3C9B00A31E8B /* NumberExtensions.swift */; };
+		F84D41C227BE409900A31E8B /* AccountIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41C127BE409900A31E8B /* AccountIcon.swift */; };
+		F8D1C7FC279E6D5100385EF6 /* SwiftUIBankingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1C7FB279E6D5100385EF6 /* SwiftUIBankingApp.swift */; };
 		F8D1C7FE279E6D5100385EF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1C7FD279E6D5100385EF6 /* ContentView.swift */; };
 		F8D1C800279E6D5200385EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D1C7FF279E6D5200385EF6 /* Assets.xcassets */; };
 		F8D1C803279E6D5200385EF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D1C802279E6D5200385EF6 /* Preview Assets.xcassets */; };
 		F8D1C80D279E6D5200385EF6 /* SwiftUIBankingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1C80C279E6D5200385EF6 /* SwiftUIBankingAppTests.swift */; };
 		F8D1C817279E6D5200385EF6 /* SwiftUIBankingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1C816279E6D5200385EF6 /* SwiftUIBankingAppUITests.swift */; };
 		F8D1C819279E6D5200385EF6 /* SwiftUIBankingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1C818279E6D5200385EF6 /* SwiftUIBankingAppUITestsLaunchTests.swift */; };
+		F8F552A027BCCC8800FBC0E4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F5529F27BCCC8800FBC0E4 /* Colors.xcassets */; };
+		F8F552A227BD238500FBC0E4 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F552A127BD238500FBC0E4 /* ButtonStyles.swift */; };
+		F8F552A527BD23C500FBC0E4 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F552A427BD23C500FBC0E4 /* ColorExtensions.swift */; };
+		F8F552A827BD267700FBC0E4 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F552A727BD267700FBC0E4 /* SizeConstants.swift */; };
+		F8F552AA27BD27C800FBC0E4 /* ButtonDemos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F552A927BD27C800FBC0E4 /* ButtonDemos.swift */; };
+		F8F552AD27BD2A0800FBC0E4 /* BarlowSemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8F552AC27BD2A0800FBC0E4 /* BarlowSemiCondensed-Bold.ttf */; };
+		F8F552AE27BD2A0800FBC0E4 /* BarlowSemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8F552AC27BD2A0800FBC0E4 /* BarlowSemiCondensed-Bold.ttf */; };
+		F8F552AF27BD2A0800FBC0E4 /* BarlowSemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8F552AC27BD2A0800FBC0E4 /* BarlowSemiCondensed-Bold.ttf */; };
+		F8F552B227BD2C7500FBC0E4 /* AssetConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F552B127BD2C7500FBC0E4 /* AssetConstants.swift */; };
+		F8F552B327BD2C7500FBC0E4 /* AssetConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F552B127BD2C7500FBC0E4 /* AssetConstants.swift */; };
+		F8F552B427BD2C7500FBC0E4 /* AssetConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F552B127BD2C7500FBC0E4 /* AssetConstants.swift */; };
+		F8F552B627BD2CEA00FBC0E4 /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F552B527BD2CEA00FBC0E4 /* FontExtensions.swift */; };
+		F8F552B727BD2CEA00FBC0E4 /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F552B527BD2CEA00FBC0E4 /* FontExtensions.swift */; };
+		F8F552B827BD2CEA00FBC0E4 /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F552B527BD2CEA00FBC0E4 /* FontExtensions.swift */; };
+		F8F552BA27BD30F900FBC0E4 /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8F552B927BD30F900FBC0E4 /* Barlow-Medium.ttf */; };
+		F8F552BC27BE217100FBC0E4 /* IconConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F552BB27BE217100FBC0E4 /* IconConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +57,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F84D41AF27BE280400A31E8B /* AccountListItemDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListItemDemo.swift; sourceTree = "<group>"; };
+		F84D41B227BE2DF100A31E8B /* AccountSummaryListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryListItem.swift; sourceTree = "<group>"; };
+		F84D41B527BE391300A31E8B /* AccountSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummary.swift; sourceTree = "<group>"; };
+		F84D41B727BE396100A31E8B /* AccountType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountType.swift; sourceTree = "<group>"; };
+		F84D41BA27BE3A0B00A31E8B /* AccountSummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewModel.swift; sourceTree = "<group>"; };
+		F84D41BD27BE3C9B00A31E8B /* NumberExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtensions.swift; sourceTree = "<group>"; };
+		F84D41C127BE409900A31E8B /* AccountIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountIcon.swift; sourceTree = "<group>"; };
 		F8D1C7F8279E6D5100385EF6 /* SwiftUIBankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8D1C7FB279E6D5100385EF6 /* SwiftUIBankingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBankingAppApp.swift; sourceTree = "<group>"; };
+		F8D1C7FB279E6D5100385EF6 /* SwiftUIBankingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBankingApp.swift; sourceTree = "<group>"; };
 		F8D1C7FD279E6D5100385EF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8D1C7FF279E6D5200385EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8D1C802279E6D5200385EF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +74,17 @@
 		F8D1C812279E6D5200385EF6 /* SwiftUIBankingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBankingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D1C816279E6D5200385EF6 /* SwiftUIBankingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBankingAppUITests.swift; sourceTree = "<group>"; };
 		F8D1C818279E6D5200385EF6 /* SwiftUIBankingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBankingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8F5529F27BCCC8800FBC0E4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F8F552A127BD238500FBC0E4 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		F8F552A427BD23C500FBC0E4 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		F8F552A727BD267700FBC0E4 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
+		F8F552A927BD27C800FBC0E4 /* ButtonDemos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemos.swift; sourceTree = "<group>"; };
+		F8F552AC27BD2A0800FBC0E4 /* BarlowSemiCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowSemiCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		F8F552B027BD2C3F00FBC0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F8F552B127BD2C7500FBC0E4 /* AssetConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetConstants.swift; sourceTree = "<group>"; };
+		F8F552B527BD2CEA00FBC0E4 /* FontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtensions.swift; sourceTree = "<group>"; };
+		F8F552B927BD30F900FBC0E4 /* Barlow-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Medium.ttf"; sourceTree = "<group>"; };
+		F8F552BB27BE217100FBC0E4 /* IconConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +112,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F84D41B427BE38FD00A31E8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F84D41B527BE391300A31E8B /* AccountSummary.swift */,
+				F84D41B727BE396100A31E8B /* AccountType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F84D41B927BE39F400A31E8B /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				F84D41BA27BE3A0B00A31E8B /* AccountSummaryViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		F84D41BC27BE3C8C00A31E8B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F84D41BD27BE3C9B00A31E8B /* NumberExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F84D41BF27BE404B00A31E8B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F84D41B227BE2DF100A31E8B /* AccountSummaryListItem.swift */,
+				F84D41C127BE409900A31E8B /* AccountIcon.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F84D41C027BE405C00A31E8B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F8F552A427BD23C500FBC0E4 /* ColorExtensions.swift */,
+				F8F552A727BD267700FBC0E4 /* SizeConstants.swift */,
+				F8F552BB27BE217100FBC0E4 /* IconConstants.swift */,
+				F8F552B127BD2C7500FBC0E4 /* AssetConstants.swift */,
+				F8F552B527BD2CEA00FBC0E4 /* FontExtensions.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		F8D1C7EF279E6D5000385EF6 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +181,14 @@
 		F8D1C7FA279E6D5100385EF6 /* SwiftUIBankingApp */ = {
 			isa = PBXGroup;
 			children = (
-				F8D1C7FB279E6D5100385EF6 /* SwiftUIBankingAppApp.swift */,
+				F84D41BC27BE3C8C00A31E8B /* Extensions */,
+				F84D41B927BE39F400A31E8B /* View Models */,
+				F84D41B427BE38FD00A31E8B /* Models */,
+				F8F552B027BD2C3F00FBC0E4 /* Info.plist */,
+				F8F552AB27BD29ED00FBC0E4 /* Resources */,
+				F8F5529E27BCCC3D00FBC0E4 /* UI */,
+				F8D1C7FB279E6D5100385EF6 /* SwiftUIBankingApp.swift */,
 				F8D1C7FD279E6D5100385EF6 /* ContentView.swift */,
-				F8D1C7FF279E6D5200385EF6 /* Assets.xcassets */,
 				F8D1C801279E6D5200385EF6 /* Preview Content */,
 			);
 			path = SwiftUIBankingApp;
@@ -125,6 +217,45 @@
 				F8D1C818279E6D5200385EF6 /* SwiftUIBankingAppUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIBankingAppUITests;
+			sourceTree = "<group>";
+		};
+		F8F5529E27BCCC3D00FBC0E4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F84D41C027BE405C00A31E8B /* Constants */,
+				F84D41BF27BE404B00A31E8B /* Components */,
+				F8D1C7FF279E6D5200385EF6 /* Assets.xcassets */,
+				F8F552A627BD25B000FBC0E4 /* ComponentDemos */,
+				F8F552A327BD239900FBC0E4 /* Styles */,
+				F8F5529F27BCCC8800FBC0E4 /* Colors.xcassets */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F8F552A327BD239900FBC0E4 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				F8F552A127BD238500FBC0E4 /* ButtonStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		F8F552A627BD25B000FBC0E4 /* ComponentDemos */ = {
+			isa = PBXGroup;
+			children = (
+				F8F552A927BD27C800FBC0E4 /* ButtonDemos.swift */,
+				F84D41AF27BE280400A31E8B /* AccountListItemDemo.swift */,
+			);
+			path = ComponentDemos;
+			sourceTree = "<group>";
+		};
+		F8F552AB27BD29ED00FBC0E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8F552B927BD30F900FBC0E4 /* Barlow-Medium.ttf */,
+				F8F552AC27BD2A0800FBC0E4 /* BarlowSemiCondensed-Bold.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +362,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F552A027BCCC8800FBC0E4 /* Colors.xcassets in Resources */,
+				F8F552BA27BD30F900FBC0E4 /* Barlow-Medium.ttf in Resources */,
 				F8D1C803279E6D5200385EF6 /* Preview Assets.xcassets in Resources */,
+				F8F552AD27BD2A0800FBC0E4 /* BarlowSemiCondensed-Bold.ttf in Resources */,
 				F8D1C800279E6D5200385EF6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F552AE27BD2A0800FBC0E4 /* BarlowSemiCondensed-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +382,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F552AF27BD2A0800FBC0E4 /* BarlowSemiCondensed-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +393,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F552A227BD238500FBC0E4 /* ButtonStyles.swift in Sources */,
+				F8F552A827BD267700FBC0E4 /* SizeConstants.swift in Sources */,
+				F84D41C227BE409900A31E8B /* AccountIcon.swift in Sources */,
+				F84D41B327BE2DF100A31E8B /* AccountSummaryListItem.swift in Sources */,
+				F84D41B827BE396100A31E8B /* AccountType.swift in Sources */,
 				F8D1C7FE279E6D5100385EF6 /* ContentView.swift in Sources */,
-				F8D1C7FC279E6D5100385EF6 /* SwiftUIBankingAppApp.swift in Sources */,
+				F84D41BB27BE3A0B00A31E8B /* AccountSummaryViewModel.swift in Sources */,
+				F8D1C7FC279E6D5100385EF6 /* SwiftUIBankingApp.swift in Sources */,
+				F8F552AA27BD27C800FBC0E4 /* ButtonDemos.swift in Sources */,
+				F84D41B627BE391300A31E8B /* AccountSummary.swift in Sources */,
+				F84D41B027BE280400A31E8B /* AccountListItemDemo.swift in Sources */,
+				F8F552BC27BE217100FBC0E4 /* IconConstants.swift in Sources */,
+				F8F552A527BD23C500FBC0E4 /* ColorExtensions.swift in Sources */,
+				F84D41BE27BE3C9B00A31E8B /* NumberExtensions.swift in Sources */,
+				F8F552B627BD2CEA00FBC0E4 /* FontExtensions.swift in Sources */,
+				F8F552B227BD2C7500FBC0E4 /* AssetConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +416,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F552B327BD2C7500FBC0E4 /* AssetConstants.swift in Sources */,
 				F8D1C80D279E6D5200385EF6 /* SwiftUIBankingAppTests.swift in Sources */,
+				F8F552B727BD2CEA00FBC0E4 /* FontExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +427,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8D1C817279E6D5200385EF6 /* SwiftUIBankingAppUITests.swift in Sources */,
+				F8F552B427BD2C7500FBC0E4 /* AssetConstants.swift in Sources */,
+				F8F552B827BD2CEA00FBC0E4 /* FontExtensions.swift in Sources */,
 				F8D1C819279E6D5200385EF6 /* SwiftUIBankingAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +575,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBankingApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIBankingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +604,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBankingApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIBankingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
