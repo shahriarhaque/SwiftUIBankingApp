@@ -14,11 +14,15 @@ struct AccountSummaryListItem: View {
         HStack(spacing: 0) {
             HStack(spacing: SizeConstants.paddingExtraSmall) {
                 AccountIcon(accountType: account.accountType)
-                Text(account.accountName)
-                    .font(Font.headline)
-                    .fixedSize(horizontal: false, vertical: true)
-                    .lineLimit(2)
-                    .multilineTextAlignment(.leading)
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(account.accountName)
+                        .font(Font.headline)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .lineLimit(2)
+                        .multilineTextAlignment(.leading)
+                    Text(account.institution)
+                        .font(Font.footnote)
+                }
             }
             
             Spacer()

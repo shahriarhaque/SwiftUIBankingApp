@@ -22,7 +22,8 @@ struct AccountIcon: View {
             return Image(systemName:IconConstants.personalLoanAccount)
         case .homeLoan:
             return Image(systemName:IconConstants.homeLoanAccount)
-        
+        case .investment:
+            return Image(systemName:IconConstants.investmentAccount)
         }
     }
     

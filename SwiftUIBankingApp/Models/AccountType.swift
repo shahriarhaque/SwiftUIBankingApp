@@ -9,5 +9,5 @@ import Foundation
 
 
 enum AccountType {
-    case everyday, savings, creditCard, personalLoan, homeLoan
+    case everyday, savings, creditCard, personalLoan, homeLoan, investment
 }

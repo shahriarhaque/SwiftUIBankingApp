@@ -8,42 +8,25 @@
 import SwiftUI
 
 struct AccountsHeaderView: View {
-    @State private var index = 0
-    
-    var savingsView: some View {
-        
-        HStack {
-            VStack(alignment: .leading, spacing: 8.0) {
-                Text("$4,560.32")
-                    .font(.largeTitle)
-                    .bold()
-                    .foregroundColor(Color("onPrimary"))
+    @EnvironmentObject var userData: UserData
+    var headerViewModels: [AccountHeaderViewModel] {
+            switch(userData.selectedProfile.type){
                 
-                Text("Total savings")
-                    .foregroundColor(Color("onPrimary"))
-                Spacer()
-            }
-            .padding(16)
-        Spacer()
+            case .everyday:
+                return UserData.everydayHeader
+            case .savings:
+                return UserData.savingsHeader
+            case .creditcard:
+                return UserData.creditCardHeader
+            case .investments:
+                return UserData.investmentHeader
+                
+            default:
+                return [AccountHeaderViewModel]()
+                
         }
     }
     
-    var interestView: some View {
-        HStack {
-            VStack(alignment: .leading, spacing: 8.0) {
-                Text("$64.12")
-                    .font(.largeTitle)
-                    .bold()
-                    .foregroundColor(Color("onPrimary"))
-                
-                Text("Interest earned this year")
-                    .foregroundColor(Color("onPrimary"))
-                Spacer()
-            }
-            .padding(16)
-            Spacer()
-        }
-    }
     
     var body: some View {
         Rectangle()
@@ -51,8 +34,9 @@ struct AccountsHeaderView: View {
             .frame(height: 125)
             .overlay(
                 TabView {
-                    savingsView
-                    interestView
+                    ForEach(headerViewModels){ model in
+                        AccountHeaderTabContentView(primaryText: model.primaryText, secondaryText: model.secondaryText)
+                    }
                 }
                 .tabViewStyle(.page)
                     .indexViewStyle(.page(backgroundDisplayMode: .never))
@@ -62,6 +46,6 @@ struct AccountsHeaderView: View {
 
 struct AccountsHeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        AccountsHeaderView()
+        AccountsHeaderView().environmentObject(UserData())
     }
 }

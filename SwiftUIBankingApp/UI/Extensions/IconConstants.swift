@@ -21,6 +21,8 @@ class IconConstants {
     
     static let homeLoanAccount = "house"
     
+    static let investmentAccount = "banknote"
+    
     // MARK:- Navigation icons
     
     static let accountMenuIcon = "list.dash"

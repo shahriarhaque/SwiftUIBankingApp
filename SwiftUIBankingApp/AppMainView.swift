@@ -11,8 +11,7 @@ import TabBar
 struct AppMainView : View {
     
     @State private var selection: TabItem = .accounts
-    @State private var accounts = AccountSummary.samples
-    
+    @StateObject var userData = UserData()
     
     var body: some View {
         TabBar(selection: $selection) {
@@ -27,6 +26,7 @@ struct AppMainView : View {
         }
         .tabBar(style: CustomTabBarStyle())
         .tabItem(style: CustomTabItemStyle())
+        .environmentObject(userData)
     }
 }
 

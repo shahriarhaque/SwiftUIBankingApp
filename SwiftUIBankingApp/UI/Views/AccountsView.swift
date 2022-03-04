@@ -8,25 +8,27 @@
 import SwiftUI
 
 struct AccountsView: View {
-    @State private var accounts = AccountSummary.samples
-    @State private var selectedProfile = 1
+    @EnvironmentObject var userData: UserData
     @State private var isEditable = false
+    
+    var filteredAccounts: [AccountSummary] {
+        return userData.accountSummaries.filter { $0.accountProfile == userData.selectedProfile
+        }
+    }
     
     var accountList: some View {
         List {
-            Section(header: Text("Savers")){
-                ForEach(accounts, id: \.self) { account in
-                    AccountSummaryListItem(account: account)
-                        .swipeActions(allowsFullSwipe: false) {
-                            swipeButtons()
-                        }
-                }
-                .onMove(perform: move)
-                .onLongPressGesture {
-                     withAnimation {
-                         self.isEditable = true
-                     }
-                }
+            ForEach(filteredAccounts, id: \.self) { account in
+                AccountSummaryListItem(account: account)
+                    .swipeActions(allowsFullSwipe: false) {
+                        swipeButtons()
+                    }
+            }
+            .onMove(perform: move)
+            .onLongPressGesture {
+                 withAnimation {
+                     self.isEditable = true
+                 }
             }
         }
         .environment(\.editMode, isEditable ? .constant(.active) : .constant(.inactive))
@@ -60,7 +62,7 @@ struct AccountsView: View {
     }
     
     func move(from source: IndexSet, to destination: Int) {
-        accounts.move(fromOffsets: source, toOffset: destination)
+        userData.accountSummaries.move(fromOffsets: source, toOffset: destination)
         isEditable = false
     }
     
@@ -83,11 +85,13 @@ struct AccountsView: View {
     
     @ViewBuilder
     func picker() -> some View {
-        Picker("Profile", selection: $selectedProfile) {
+        Picker("Profile", selection: $userData.selectedProfile) {
             
-            Label(" Shahriar", systemImage: "person.crop.circle").tag(1)
-            
-            Label(" Acme Corp", systemImage: "briefcase.circle").tag(2)
+            ForEach(userData.accountProfiles, id: \.self) { profile in
+                Label(String(format: " %@", profile.name), systemImage: profile.image)
+                .tag(profile)
+                
+            }
         }
         .pickerStyle(.menu)
     }
@@ -98,6 +102,6 @@ struct AccountsView: View {
 
 struct AccountsView_Previews: PreviewProvider {
     static var previews: some View {
-        AccountsView()
+        AccountsView().environmentObject(UserData())
     }
 }
