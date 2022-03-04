@@ -10,7 +10,7 @@ import SwiftUI
 struct AccountIcon: View {
     var accountType: AccountType
     
-    var icon: some View {
+    var icon: Image {
         switch(accountType){
         case .everyday:
             return Image(systemName: IconConstants.everydayAccount)
@@ -27,13 +27,22 @@ struct AccountIcon: View {
     }
     
     var body: some View {
-        icon.accessibilityHidden(true)
+        icon
+            .renderingMode(.template)
+            .foregroundColor(Color("onBackground"))
+            .padding(8)
+            .accessibilityHidden(true)
+            .background(
+                RoundedRectangle(cornerRadius: 10, style: .continuous)
+                    .fill(Color("primaryVariant"))
+                    .frame(width: 32, height: 32)
+            )
     }
 }
 
 struct AccountIcon_Previews: PreviewProvider {
     static var previews: some View {
-        AccountIcon(accountType: .creditCard)
+        AccountIcon(accountType: .everyday)
             .frame(width: 32, height: 32)
     }
 }

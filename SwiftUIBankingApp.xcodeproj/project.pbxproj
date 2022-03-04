@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F84D41B027BE280400A31E8B /* AccountListItemDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41AF27BE280400A31E8B /* AccountListItemDemo.swift */; };
+		F84D41B027BE280400A31E8B /* AccountListItemDragDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41AF27BE280400A31E8B /* AccountListItemDragDemo.swift */; };
 		F84D41B327BE2DF100A31E8B /* AccountSummaryListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41B227BE2DF100A31E8B /* AccountSummaryListItem.swift */; };
 		F84D41B627BE391300A31E8B /* AccountSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41B527BE391300A31E8B /* AccountSummary.swift */; };
 		F84D41B827BE396100A31E8B /* AccountType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41B727BE396100A31E8B /* AccountType.swift */; };
 		F84D41BB27BE3A0B00A31E8B /* AccountSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41BA27BE3A0B00A31E8B /* AccountSummaryViewModel.swift */; };
 		F84D41BE27BE3C9B00A31E8B /* NumberExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41BD27BE3C9B00A31E8B /* NumberExtensions.swift */; };
 		F84D41C227BE409900A31E8B /* AccountIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41C127BE409900A31E8B /* AccountIcon.swift */; };
+		F84D41CB27BF76BF00A31E8B /* AccountListItemSwipeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41CA27BF76BF00A31E8B /* AccountListItemSwipeDemo.swift */; };
+		F84D41CD27C0F9F700A31E8B /* NavigationBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41CC27C0F9F700A31E8B /* NavigationBarStyle.swift */; };
+		F84D41CF27C0FC0500A31E8B /* CustomNavbarDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84D41CE27C0FC0500A31E8B /* CustomNavbarDemo.swift */; };
+		F869DCF827C7BE870007CC40 /* TabBar in Frameworks */ = {isa = PBXBuildFile; productRef = F869DCF727C7BE870007CC40 /* TabBar */; };
+		F869DCFA27C7C0490007CC40 /* TabBarStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869DCF927C7C0490007CC40 /* TabBarStyles.swift */; };
+		F869DCFD27C7C3590007CC40 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869DCFC27C7C3590007CC40 /* TabItem.swift */; };
+		F869DCFF27C7C40F0007CC40 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869DCFE27C7C40F0007CC40 /* AccountsView.swift */; };
+		F869DD0127C7CB970007CC40 /* StatusBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869DD0027C7CB970007CC40 /* StatusBarStyle.swift */; };
+		F8A623F327CE44CC00A20343 /* AccountsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A623F227CE44CC00A20343 /* AccountsHeaderView.swift */; };
+		F8A623F527CE48A500A20343 /* AccountsHeaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A623F427CE48A500A20343 /* AccountsHeaderDemo.swift */; };
+		F8A623F727CE56DD00A20343 /* PagedTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A623F627CE56DD00A20343 /* PagedTabViewStyle.swift */; };
 		F8D1C7FC279E6D5100385EF6 /* SwiftUIBankingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1C7FB279E6D5100385EF6 /* SwiftUIBankingApp.swift */; };
-		F8D1C7FE279E6D5100385EF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1C7FD279E6D5100385EF6 /* ContentView.swift */; };
+		F8D1C7FE279E6D5100385EF6 /* AppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1C7FD279E6D5100385EF6 /* AppMainView.swift */; };
 		F8D1C800279E6D5200385EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D1C7FF279E6D5200385EF6 /* Assets.xcassets */; };
 		F8D1C803279E6D5200385EF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D1C802279E6D5200385EF6 /* Preview Assets.xcassets */; };
 		F8D1C80D279E6D5200385EF6 /* SwiftUIBankingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1C80C279E6D5200385EF6 /* SwiftUIBankingAppTests.swift */; };
@@ -57,16 +68,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F84D41AF27BE280400A31E8B /* AccountListItemDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListItemDemo.swift; sourceTree = "<group>"; };
+		F84D41AF27BE280400A31E8B /* AccountListItemDragDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListItemDragDemo.swift; sourceTree = "<group>"; };
 		F84D41B227BE2DF100A31E8B /* AccountSummaryListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryListItem.swift; sourceTree = "<group>"; };
 		F84D41B527BE391300A31E8B /* AccountSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummary.swift; sourceTree = "<group>"; };
 		F84D41B727BE396100A31E8B /* AccountType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountType.swift; sourceTree = "<group>"; };
 		F84D41BA27BE3A0B00A31E8B /* AccountSummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewModel.swift; sourceTree = "<group>"; };
 		F84D41BD27BE3C9B00A31E8B /* NumberExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtensions.swift; sourceTree = "<group>"; };
 		F84D41C127BE409900A31E8B /* AccountIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountIcon.swift; sourceTree = "<group>"; };
+		F84D41CA27BF76BF00A31E8B /* AccountListItemSwipeDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountListItemSwipeDemo.swift; sourceTree = "<group>"; };
+		F84D41CC27C0F9F700A31E8B /* NavigationBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarStyle.swift; sourceTree = "<group>"; };
+		F84D41CE27C0FC0500A31E8B /* CustomNavbarDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavbarDemo.swift; sourceTree = "<group>"; };
+		F869DCF927C7C0490007CC40 /* TabBarStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarStyles.swift; sourceTree = "<group>"; };
+		F869DCFC27C7C3590007CC40 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		F869DCFE27C7C40F0007CC40 /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
+		F869DD0027C7CB970007CC40 /* StatusBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarStyle.swift; sourceTree = "<group>"; };
+		F8A623F227CE44CC00A20343 /* AccountsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsHeaderView.swift; sourceTree = "<group>"; };
+		F8A623F427CE48A500A20343 /* AccountsHeaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsHeaderDemo.swift; sourceTree = "<group>"; };
+		F8A623F627CE56DD00A20343 /* PagedTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedTabViewStyle.swift; sourceTree = "<group>"; };
 		F8D1C7F8279E6D5100385EF6 /* SwiftUIBankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D1C7FB279E6D5100385EF6 /* SwiftUIBankingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBankingApp.swift; sourceTree = "<group>"; };
-		F8D1C7FD279E6D5100385EF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8D1C7FD279E6D5100385EF6 /* AppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainView.swift; sourceTree = "<group>"; };
 		F8D1C7FF279E6D5200385EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8D1C802279E6D5200385EF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8D1C808279E6D5200385EF6 /* SwiftUIBankingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBankingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F869DCF827C7BE870007CC40 /* TabBar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +168,7 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		F84D41C027BE405C00A31E8B /* Constants */ = {
+		F84D41C027BE405C00A31E8B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				F8F552A427BD23C500FBC0E4 /* ColorExtensions.swift */,
@@ -155,7 +177,24 @@
 				F8F552B127BD2C7500FBC0E4 /* AssetConstants.swift */,
 				F8F552B527BD2CEA00FBC0E4 /* FontExtensions.swift */,
 			);
-			path = Constants;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F84D41C327BF6FD700A31E8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F869DCFE27C7C40F0007CC40 /* AccountsView.swift */,
+				F8A623F227CE44CC00A20343 /* AccountsHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F869DCFB27C7C33E0007CC40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F869DCFC27C7C3590007CC40 /* TabItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		F8D1C7EF279E6D5000385EF6 = {
@@ -188,7 +227,7 @@
 				F8F552AB27BD29ED00FBC0E4 /* Resources */,
 				F8F5529E27BCCC3D00FBC0E4 /* UI */,
 				F8D1C7FB279E6D5100385EF6 /* SwiftUIBankingApp.swift */,
-				F8D1C7FD279E6D5100385EF6 /* ContentView.swift */,
+				F8D1C7FD279E6D5100385EF6 /* AppMainView.swift */,
 				F8D1C801279E6D5200385EF6 /* Preview Content */,
 			);
 			path = SwiftUIBankingApp;
@@ -222,10 +261,12 @@
 		F8F5529E27BCCC3D00FBC0E4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				F84D41C027BE405C00A31E8B /* Constants */,
+				F869DCFB27C7C33E0007CC40 /* Models */,
+				F84D41C327BF6FD700A31E8B /* Views */,
+				F84D41C027BE405C00A31E8B /* Extensions */,
 				F84D41BF27BE404B00A31E8B /* Components */,
 				F8D1C7FF279E6D5200385EF6 /* Assets.xcassets */,
-				F8F552A627BD25B000FBC0E4 /* ComponentDemos */,
+				F8F552A627BD25B000FBC0E4 /* Demos */,
 				F8F552A327BD239900FBC0E4 /* Styles */,
 				F8F5529F27BCCC8800FBC0E4 /* Colors.xcassets */,
 			);
@@ -235,18 +276,25 @@
 		F8F552A327BD239900FBC0E4 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
+				F84D41CC27C0F9F700A31E8B /* NavigationBarStyle.swift */,
+				F869DD0027C7CB970007CC40 /* StatusBarStyle.swift */,
 				F8F552A127BD238500FBC0E4 /* ButtonStyles.swift */,
+				F869DCF927C7C0490007CC40 /* TabBarStyles.swift */,
+				F8A623F627CE56DD00A20343 /* PagedTabViewStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
 		};
-		F8F552A627BD25B000FBC0E4 /* ComponentDemos */ = {
+		F8F552A627BD25B000FBC0E4 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
 				F8F552A927BD27C800FBC0E4 /* ButtonDemos.swift */,
-				F84D41AF27BE280400A31E8B /* AccountListItemDemo.swift */,
+				F84D41AF27BE280400A31E8B /* AccountListItemDragDemo.swift */,
+				F84D41CA27BF76BF00A31E8B /* AccountListItemSwipeDemo.swift */,
+				F84D41CE27C0FC0500A31E8B /* CustomNavbarDemo.swift */,
+				F8A623F427CE48A500A20343 /* AccountsHeaderDemo.swift */,
 			);
-			path = ComponentDemos;
+			path = Demos;
 			sourceTree = "<group>";
 		};
 		F8F552AB27BD29ED00FBC0E4 /* Resources */ = {
@@ -274,6 +322,9 @@
 			dependencies = (
 			);
 			name = SwiftUIBankingApp;
+			packageProductDependencies = (
+				F869DCF727C7BE870007CC40 /* TabBar */,
+			);
 			productName = SwiftUIBankingApp;
 			productReference = F8D1C7F8279E6D5100385EF6 /* SwiftUIBankingApp.app */;
 			productType = "com.apple.product-type.application";
@@ -346,6 +397,9 @@
 				Base,
 			);
 			mainGroup = F8D1C7EF279E6D5000385EF6;
+			packageReferences = (
+				F869DCF627C7BE870007CC40 /* XCRemoteSwiftPackageReference "TabBar" */,
+			);
 			productRefGroup = F8D1C7F9279E6D5100385EF6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -394,18 +448,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8F552A227BD238500FBC0E4 /* ButtonStyles.swift in Sources */,
+				F84D41CD27C0F9F700A31E8B /* NavigationBarStyle.swift in Sources */,
 				F8F552A827BD267700FBC0E4 /* SizeConstants.swift in Sources */,
 				F84D41C227BE409900A31E8B /* AccountIcon.swift in Sources */,
 				F84D41B327BE2DF100A31E8B /* AccountSummaryListItem.swift in Sources */,
+				F8A623F527CE48A500A20343 /* AccountsHeaderDemo.swift in Sources */,
 				F84D41B827BE396100A31E8B /* AccountType.swift in Sources */,
-				F8D1C7FE279E6D5100385EF6 /* ContentView.swift in Sources */,
+				F8D1C7FE279E6D5100385EF6 /* AppMainView.swift in Sources */,
+				F8A623F727CE56DD00A20343 /* PagedTabViewStyle.swift in Sources */,
+				F8A623F327CE44CC00A20343 /* AccountsHeaderView.swift in Sources */,
 				F84D41BB27BE3A0B00A31E8B /* AccountSummaryViewModel.swift in Sources */,
 				F8D1C7FC279E6D5100385EF6 /* SwiftUIBankingApp.swift in Sources */,
+				F84D41CB27BF76BF00A31E8B /* AccountListItemSwipeDemo.swift in Sources */,
+				F84D41CF27C0FC0500A31E8B /* CustomNavbarDemo.swift in Sources */,
 				F8F552AA27BD27C800FBC0E4 /* ButtonDemos.swift in Sources */,
 				F84D41B627BE391300A31E8B /* AccountSummary.swift in Sources */,
-				F84D41B027BE280400A31E8B /* AccountListItemDemo.swift in Sources */,
+				F84D41B027BE280400A31E8B /* AccountListItemDragDemo.swift in Sources */,
+				F869DCFA27C7C0490007CC40 /* TabBarStyles.swift in Sources */,
 				F8F552BC27BE217100FBC0E4 /* IconConstants.swift in Sources */,
 				F8F552A527BD23C500FBC0E4 /* ColorExtensions.swift in Sources */,
+				F869DCFD27C7C3590007CC40 /* TabItem.swift in Sources */,
+				F869DD0127C7CB970007CC40 /* StatusBarStyle.swift in Sources */,
+				F869DCFF27C7C40F0007CC40 /* AccountsView.swift in Sources */,
 				F84D41BE27BE3C9B00A31E8B /* NumberExtensions.swift in Sources */,
 				F8F552B627BD2CEA00FBC0E4 /* FontExtensions.swift in Sources */,
 				F8F552B227BD2C7500FBC0E4 /* AssetConstants.swift in Sources */,
@@ -755,6 +819,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F869DCF627C7BE870007CC40 /* XCRemoteSwiftPackageReference "TabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onl1ner/TabBar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F869DCF727C7BE870007CC40 /* TabBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F869DCF627C7BE870007CC40 /* XCRemoteSwiftPackageReference "TabBar" */;
+			productName = TabBar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F8D1C7F0279E6D5000385EF6 /* Project object */;
 }
