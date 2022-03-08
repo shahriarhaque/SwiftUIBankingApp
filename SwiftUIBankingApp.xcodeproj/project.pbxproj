@@ -29,6 +29,7 @@
 		F8A623FC27D233C400A20343 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A623FB27D233C400A20343 /* UserData.swift */; };
 		F8A6240027D2485100A20343 /* AccountHeaderTabContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A623FF27D2485100A20343 /* AccountHeaderTabContentView.swift */; };
 		F8A6240227D257AC00A20343 /* AccountHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6240127D257AC00A20343 /* AccountHeaderViewModel.swift */; };
+		F8C342E027D76A0F00CF912C /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C342DF27D76A0F00CF912C /* TransferView.swift */; };
 		F8D1C7FC279E6D5100385EF6 /* SwiftUIBankingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1C7FB279E6D5100385EF6 /* SwiftUIBankingApp.swift */; };
 		F8D1C7FE279E6D5100385EF6 /* AppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D1C7FD279E6D5100385EF6 /* AppMainView.swift */; };
 		F8D1C800279E6D5200385EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D1C7FF279E6D5200385EF6 /* Assets.xcassets */; };
@@ -93,6 +94,7 @@
 		F8A623FB27D233C400A20343 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		F8A623FF27D2485100A20343 /* AccountHeaderTabContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHeaderTabContentView.swift; sourceTree = "<group>"; };
 		F8A6240127D257AC00A20343 /* AccountHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHeaderViewModel.swift; sourceTree = "<group>"; };
+		F8C342DF27D76A0F00CF912C /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
 		F8D1C7F8279E6D5100385EF6 /* SwiftUIBankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D1C7FB279E6D5100385EF6 /* SwiftUIBankingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBankingApp.swift; sourceTree = "<group>"; };
 		F8D1C7FD279E6D5100385EF6 /* AppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainView.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 			children = (
 				F869DCFE27C7C40F0007CC40 /* AccountsView.swift */,
 				F8A623F227CE44CC00A20343 /* AccountsHeaderView.swift */,
+				F8C342DF27D76A0F00CF912C /* TransferView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8A623F927D2311C00A20343 /* AccountProfile.swift in Sources */,
+				F8C342E027D76A0F00CF912C /* TransferView.swift in Sources */,
 				F8F552A227BD238500FBC0E4 /* ButtonStyles.swift in Sources */,
 				F8A623FC27D233C400A20343 /* UserData.swift in Sources */,
 				F84D41CD27C0F9F700A31E8B /* NavigationBarStyle.swift in Sources */,
