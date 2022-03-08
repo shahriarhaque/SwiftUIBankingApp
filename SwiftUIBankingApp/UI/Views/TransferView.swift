@@ -41,7 +41,8 @@ struct TransferView: View {
                 }
                 
                 if(endingSelection == "On date"){
-                    DatePicker("End date", selection: $endDate, displayedComponents: .date)
+                    DatePicker("End date", selection: $endDate,
+                               in: dateRange, displayedComponents: .date)
                 }
                 
                 if(endingSelection == "Occurences"){
@@ -51,6 +52,13 @@ struct TransferView: View {
             
         }
     }
+    
+    let dateRange: ClosedRange<Date> = {
+        let calendar = Calendar.current
+        return calendar.date(byAdding: .day, value: 1, to: Date())!
+            ...
+        calendar.date(byAdding: .year, value: 99, to: Date())!
+    }()
     
     var numberOccurencesDisplay: String {
         if numOccurences == 1{
